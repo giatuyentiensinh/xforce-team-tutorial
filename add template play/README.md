@@ -37,7 +37,7 @@ libraryDependencies ++= Seq(
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.3.8")
 ```
 
-* app/controllers/Application
+* app/controllers/Application.java
 
 ```java
 
@@ -65,24 +65,24 @@ public class Application extends Controller {
 ```command
 
 # Trang chủ sẽ chỉ đến index.html trong project AngularJS
-GET     /                           controllers.Assets.at(path="/public/giasan", file = "index.html")
+GET     /                           controllers.Assets.at(path="/public/webapp", file = "index.html")
 
 # Cấu hình các file resource để trong file index.html có thể nhận được
-GET     /api/*file               		controllers.Assets.versioned(path="/public/giasan/api", file: Asset)
-GET     /assets/*file               	controllers.Assets.versioned(path="/public/giasan/assets", file: Asset)
-GET     /bower_components/*file 		controllers.Assets.versioned(path="/public/giasan/bower_components", file: Asset)
-GET     /css/*file               		controllers.Assets.versioned(path="/public/giasan/css", file: Asset)
-GET     /fileMap/*file 					controllers.Assets.versioned(path="/public/giasan/fileMap", file: Asset)
-GET     /fonts/*file               		controllers.Assets.versioned(path="/public/giasan/fonts", file: Asset)
-GET     /fonts/sourcesanspro/*file 		controllers.Assets.versioned(path="/public/giasan/fonts/sourcesanspro", file: Asset)
-GET     /i18n/*file               		controllers.Assets.versioned(path="/public/giasan/i18n", file: Asset)
-GET     /img/*file               		controllers.Assets.versioned(path="/public/giasan/img", file: Asset)
-GET     /js/*file               		controllers.Assets.versioned(path="/public/giasan/js", file: Asset)
-GET     /l10n/*file               		controllers.Assets.versioned(path="/public/giasan/l10n", file: Asset)
-GET     /scripts/*file               	controllers.Assets.versioned(path="/public/giasan/scripts", file: Asset)
-GET     /swagger_ui/*file               controllers.Assets.versioned(path="/public/giasan/swagger_ui", file: Asset)
-GET     /tpl/*file               		controllers.Assets.versioned(path="/public/giasan/tpl", file: Asset)
-GET     /vendor/*file               	controllers.Assets.versioned(path="/public/giasan/vendor", file: Asset)
+GET     /api/*file               		controllers.Assets.versioned(path="/public/webapp/api", file: Asset)
+GET     /assets/*file               	controllers.Assets.versioned(path="/public/webapp/assets", file: Asset)
+GET     /bower_components/*file 		controllers.Assets.versioned(path="/public/webapp/bower_components", file: Asset)
+GET     /css/*file               		controllers.Assets.versioned(path="/public/webapp/css", file: Asset)
+GET     /fileMap/*file 					controllers.Assets.versioned(path="/public/webapp/fileMap", file: Asset)
+GET     /fonts/*file               		controllers.Assets.versioned(path="/public/webapp/fonts", file: Asset)
+GET     /fonts/sourcesanspro/*file 		controllers.Assets.versioned(path="/public/webapp/fonts/sourcesanspro", file: Asset)
+GET     /i18n/*file               		controllers.Assets.versioned(path="/public/webapp/i18n", file: Asset)
+GET     /img/*file               		controllers.Assets.versioned(path="/public/webapp/img", file: Asset)
+GET     /js/*file               		controllers.Assets.versioned(path="/public/webapp/js", file: Asset)
+GET     /l10n/*file               		controllers.Assets.versioned(path="/public/webapp/l10n", file: Asset)
+GET     /scripts/*file               	controllers.Assets.versioned(path="/public/webapp/scripts", file: Asset)
+GET     /swagger_ui/*file               controllers.Assets.versioned(path="/public/webapp/swagger_ui", file: Asset)
+GET     /tpl/*file               		controllers.Assets.versioned(path="/public/webapp/tpl", file: Asset)
+GET     /vendor/*file               	controllers.Assets.versioned(path="/public/webapp/vendor", file: Asset)
 
 ```
 
