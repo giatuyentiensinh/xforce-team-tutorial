@@ -6,8 +6,7 @@
 
 ## Cài đặt
 
-```
-#!command
+```command
 
 # cài đặt nodejs
 $ sudo apt-get install nodejs
@@ -28,8 +27,7 @@ $ sudo npm install -g grunt-cli
 4. Gruntfile.js (chứa thông tin cấu hình của `grunt`)
 
 * Setup
-```
-#!command
+```command
 
 # tạo file index.html (cái này có thể tạo file bằng các tool hoặc có thể sử dụng lệnh trên termial như sau)
 $ touch index.html
@@ -46,8 +44,7 @@ $ bower init
 
 * Ví dụ sử dụng grunt để nén các file js, css
 
-```
-#!command
+```command
 # cài đặt gói grunt (option --save-dev để nói cho hệ thống biết rằng các package cài đặt sẽ được ghi vào file package.json, sau khi cài đặt các gói sẽ lưu vào thư mục node_modules)
 $ npm install grunt --save-dev
 
@@ -60,8 +57,7 @@ $ npm install grunt-contrib-cssmin --save-dev
 
 Trong file Gruntfile.js
 
-```
-#!javascript
+```js
 
 
 module.exports = function (grunt) {
@@ -116,13 +112,12 @@ module.exports = function (grunt) {
 
 Execute, trước khi chạy hãy tạo các folder và các file theo cấu trúc như sau
 
-![grunt create init](/images/grunt create init.png)
+![grunt create init](/images/grunt create init.PNG)
 
 Các file .css và .js chứa một số nội dung
 
 
-```
-#!command
+```command
 
 # sử dụng grunt (vào folder distjs và distcss để xem kết quả)
 $ grunt
@@ -131,3 +126,5 @@ $ grunt
 $ grunt uglify
 $ grunt cssmin
 ```
+
+# Auth: Tuyen-ng
