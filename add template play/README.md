@@ -3,6 +3,11 @@
 
 ## Sử dụng PlayFramework version `2.3.8` (do sử dụng [PlayAuthenticate](http://joscha.github.com/play-authenticate/) đầy đủ với 2.3.x)
 
+```command
+# tạo project
+$ activator new `path/project_name` play-java
+```
+
 ## Sửa một số file cấu hình sau khi tạo prject để đổi version Play `2.3.8`.
 
 * build.sbt

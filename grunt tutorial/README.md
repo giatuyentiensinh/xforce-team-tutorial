@@ -1,5 +1,4 @@
 # Grunt tutorial
-=============================================================================
 
 ## Giới thiệu
 `grunt` là công cụ được xây dựa trên `nodejs` để quản lý các file script của project, giúp cho việc đóng gói angular, test controller, ...
