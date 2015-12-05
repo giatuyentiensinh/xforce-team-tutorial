@@ -27,6 +27,7 @@ $ npm init
 $ bower init
 ```
 * Sử dụng
+
   Sau khi cài đặt các gói thì các gói tải về sẽ nằm trong thư mục `bower_components`
 
 ```shell
@@ -42,10 +43,10 @@ $ bower uninstall materialize --save
 
 # sử dụng bower để tìm kiếm 
 $ bower search bootstrap-angular
-```
 # có thể clone packet từ git
 $ bower install --save git://github.com/user/package.git
 # có thể clone từ một địa chỉ url
 $ bower install http://example.com/script.js
+```
 
 # Auth: Tuyen-ng
