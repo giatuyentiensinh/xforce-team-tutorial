@@ -5,21 +5,18 @@
 
 ## Cài đặt
 
-```command
+```shell
 
 $ sudo npm install -g bower
 ```
 
 ## Sử dụng
 * Init. Tạo các file sau trong project phía **front end**
-
-1. package.json (chứa thông tin cấu hình của toàn project)
-2. bower.json (quản lý các thư viện)
-3. index.html
-
+  - package.json (chứa thông tin cấu hình của toàn project)
+  - bower.json (quản lý các thư viện)
+  - index.html
 * Setup
-```command
-
+```shell
 # tạo file index.html
 $ touch index.html
 
@@ -29,12 +26,10 @@ $ npm init
 # tạo file bower.json (ghi các thông tin mô tả về project theo hướng dẫn)
 $ bower init
 ```
-
 * Sử dụng
+  Sau khi cài đặt các gói thì các gói tải về sẽ nằm trong thư mục `bower_components`
 
-Sau khi cài đặt các gói thì các gói tải về sẽ nằm trong thư mục `bower_components`
-
-```command
+```shell
 
 # tải angularJs về (option --save để ghi lại các gói đã cài đặt vào trong file bower.json) mặc định nó sẽ chọn version mới nhất
 $ bower install angular --save
@@ -48,5 +43,9 @@ $ bower uninstall materialize --save
 # sử dụng bower để tìm kiếm 
 $ bower search bootstrap-angular
 ```
+# có thể clone packet từ git
+$ bower install --save git://github.com/user/package.git
+# có thể clone từ một địa chỉ url
+$ bower install http://example.com/script.js
 
 # Auth: Tuyen-ng
