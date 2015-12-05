@@ -129,14 +129,14 @@ $ grunt cssmin
 
 tool [wiredep](https://github.com/taptapship/wiredep)
 
-1. cài đặt wiredep
+* cài đặt wiredep
 
 ```shell
 $ npm install --save-dev wiredep
 $ npm install --save-dev grunt-wiredep
 ```
 
-2. cấu hình trong Gruntfile.js
+* cấu hình trong Gruntfile.js
 
 ```javascript
 module.exports = function (grunt) {
@@ -164,7 +164,7 @@ module.exports = function (grunt) {
 }
 ```
 
-3. cấu hình file cần import
+* cấu hình file cần import
 
   Thêm dòng sau vào file cần import
 ```shell
@@ -174,7 +174,7 @@ module.exports = function (grunt) {
 <!-- endbower -->
 ```
 
-4. Test
+* Test
 
 ```shell
 $ bower install --save jquery
