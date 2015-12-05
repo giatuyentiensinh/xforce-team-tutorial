@@ -5,7 +5,7 @@
 
 ## Cài đặt
 
-```command
+```shell
 
 # cài đặt nodejs
 $ sudo apt-get install nodejs
@@ -26,7 +26,7 @@ $ sudo npm install -g grunt-cli
 4. Gruntfile.js (chứa thông tin cấu hình của `grunt`)
 
 * Setup
-```command
+```shell
 
 # tạo file index.html (cái này có thể tạo file bằng các tool hoặc có thể sử dụng lệnh trên termial như sau)
 $ touch index.html
@@ -43,7 +43,7 @@ $ bower init
 
 * Ví dụ sử dụng grunt để nén các file js, css
 
-```command
+```shell
 # cài đặt gói grunt (option --save-dev để nói cho hệ thống biết rằng các package cài đặt sẽ được ghi vào file package.json, sau khi cài đặt các gói sẽ lưu vào thư mục node_modules)
 $ npm install grunt --save-dev
 
@@ -57,7 +57,6 @@ $ npm install grunt-contrib-cssmin --save-dev
 Trong file Gruntfile.js
 
 ```js
-
 
 module.exports = function (grunt) {
 
@@ -116,7 +115,7 @@ Execute, trước khi chạy hãy tạo các folder và các file theo cấu tr�
 Các file .css và .js chứa một số nội dung
 
 
-```command
+```shell
 
 # sử dụng grunt (vào folder distjs và distcss để xem kết quả)
 $ grunt
@@ -124,6 +123,58 @@ $ grunt
 # trong trường hợp chỉ dùng 1 chức năng đã được chỉ định trong phần grunt config (trường hợp này thì ko cần phải có phần 3 trong Gruntfile.js)
 $ grunt uglify
 $ grunt cssmin
+```
+
+# Bounus: Sử dụng grunt để tự động import các thư viện mà bower kéo về [REF](https://github.com/stephenplusplus/grunt-wiredep)
+
+tool [wiredep](https://github.com/taptapship/wiredep)
+
+1. cài đặt wiredep
+```shell
+$ npm install --save-dev wiredep
+$ npm install --save-dev grunt-wiredep
+```
+
+2. cấu hình trong Gruntfile.js
+```javascript
+module.exports = function (grunt) {
+
+	grunt.loadNpmTasks('grunt-wiredep');
+
+	grunt.initConfig({ 
+		wiredep: {
+			task: {
+				src: [
+					'app/views/**/*.html',   // .html support...
+					'app/views/**/*.jade',   // .jade support...
+					'app/styles/main.scss',  // .scss & .sass support...
+					'app/config.yml'         // and .yml & .yaml support out of the box!
+				],
+				options: {
+					// See wiredep's configuration documentation for the options
+					// you may pass:
+
+					// https://github.com/taptapship/wiredep#configuration
+				}
+			}
+		}
+	});
+}
+```
+3. cấu hình file cần import
+  Thêm dòng sau vào file cần import
+```shell
+<!-- bower:css -->
+<!-- endbower -->
+<!-- bower:js -->
+<!-- endbower -->
+```
+4. Test
+```shell
+$ bower install --save jquery
+$ grunt wiredep
+
+# kiểm tra trong file index.html
 ```
 
 # Auth: Tuyen-ng
