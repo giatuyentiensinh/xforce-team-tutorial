@@ -1,4 +1,4 @@
-# Sử dụng tool `[Aircrack-ng](http://www.aircrack-ng.org/)`
+# Sử dụng tool [Aircrack-ng](http://www.aircrack-ng.org/)
 
 ```shell
 # cài đặt aircrack-ng
