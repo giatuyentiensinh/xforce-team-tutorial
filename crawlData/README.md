@@ -1,6 +1,7 @@
 # [Scrapy](http://doc.scrapy.org/en/0.20/index.html)
 
 Su dung scrapy de crawl du lieu tu website
+
 language: Python
 
 ## [Setup](http://doc.scrapy.org/en/0.20/intro/install.html)
@@ -15,7 +16,7 @@ language: Python
 ### Cai dat (trong tut nay dung PIP)
 
 ```shell
-pip install Scrapy
+$pip install Scrapy
 ```
 
 ## [Huong dan su dung](http://doc.scrapy.org/en/0.20/intro/tutorial.html)
@@ -24,7 +25,7 @@ pip install Scrapy
 
 ```shell
 # ten project: crawData
-scrapy startproject crawData
+$ scrapy startproject crawData
 ```
 ![Image demo](/images/scrapy struct.png)
 
@@ -92,7 +93,7 @@ class PhoneSpider(Spider):
 
 ```shell
 # output ra file items.json
-scrapy crawl phone -o items.json -t json
+$ scrapy crawl phone -o items.json -t json
 ```
 
 # Auth: Tuyen-ng
