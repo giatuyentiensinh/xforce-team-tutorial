@@ -1,5 +1,6 @@
 # Add angularJS của project `giasan` vào PlayFrameWord
-==================================================
+
+# [Download tai lieu hoc Play](/Play documennt.rar)
 
 ## Sử dụng PlayFramework version `2.3.8` (do sử dụng [PlayAuthenticate](http://joscha.github.com/play-authenticate/) đầy đủ với 2.3.x)
 

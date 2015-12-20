@@ -1,7 +1,5 @@
 # xforce tutorial
 
-Để xem tuts nào thì chỉ vào các thư mục ứng với tuts đó ở trên
-
 * Server
   * [add template play](/add template play)
 * Client
@@ -13,4 +11,5 @@
 * Tuts
   * [wifi windows](/windows open wifi)
   * [scrapy](/crawData)
+
 # Auth: Tuyen-ng
