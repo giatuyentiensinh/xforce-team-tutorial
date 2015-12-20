@@ -1,0 +1,155 @@
+[
+  {
+    "price": [
+      "10.990.000₫"
+    ],
+    "config": [
+      "Màn hình:FullHD, 5.7 inches",
+      "HĐH: Android 5.1",
+      "CPU: 8 nhân, RAM: 2GB",
+      "Camera: 16.0MP, 2 SIM",
+      "Pin: 3050mAh"
+    ],
+    "name": [
+      "Samsung Galaxy A8 - A800VE"
+    ]
+  },
+  {
+    "price": [
+      "3.690.000₫"
+    ],
+    "config": [
+      "Màn hình: HD, 5.5 inches",
+      "HĐH: Android 5",
+      "CPU: 8 nhân 1.4GHz, RAM 2GB",
+      "Camera: 13.0MP, 2 SIM",
+      "Dung lượng pin: 2820 mAh"
+    ],
+    "name": [
+      "Wiko Pulp Fab"
+    ]
+  },
+  {
+    "price": [
+      "17.990.000₫"
+    ],
+    "config": [
+      "Màn hình: QuadHD, 5.7 inches",
+      "HĐH: Android 5.1 (Lollipop)",
+      "CPU: 8 nhân, RAM 4GB",
+      "Camera: 16.0MP",
+      "Pin: 3000mAh"
+    ],
+    "name": [
+      "Samsung Galaxy Note 5"
+    ]
+  },
+  {
+    "price": [
+      "9.490.000₫"
+    ],
+    "config": [
+      "Màn hình: FullHD, 5.5 inches",
+      "HĐH: Android 5.1 (Lollipop)",
+      "CPU: 8 nhân, RAM 4GB",
+      "Camera: 13.0MP",
+      "Pin: 3070mAh"
+    ],
+    "name": [
+      "Oppo R7s"
+    ]
+  },
+  {
+    "price": [
+      "4.990.000₫"
+    ],
+    "config": [
+      "Màn hình: HD, 5.0 inches",
+      "HĐH: Android 5.0 Lollipop",
+      "CPU: 8 nhân, RAM 2GB",
+      "Camera: 13.0MP, 2 SIM",
+      "Pin: 2400mAh"
+    ],
+    "name": [
+      "Sony Xperia M4 Aqua Dual"
+    ]
+  },
+  {
+    "price": [
+      "4.490.000₫"
+    ],
+    "config": [
+      "Màn hình: HD, 5.0 inches",
+      "HĐH: Android 5.1",
+      "CPU: 4 nhân 1.2GHz, RAM 1.5GB",
+      "Camera: 13MP, 2 SIM",
+      "Pin: 2600mAh"
+    ],
+    "name": [
+      "Samsung Galaxy J5"
+    ]
+  },
+  {
+    "price": [
+      "3.990.000₫"
+    ],
+    "config": [
+      "Màn hình: qHD, 5.0 inches",
+      "HĐH: Android 5.1",
+      "CPU: 4 nhân 1.2GHz, RAM 1GB",
+      "Camera: 8.0MP, 2 SIM",
+      "Dung lượng pin: 2420 mAh"
+    ],
+    "name": [
+      "OPPO Neo 7"
+    ]
+  },
+  {
+    "price": [
+      "6.490.000₫"
+    ],
+    "config": [
+      "Màn Hình: 6.8\", 1920 x 1080 pixel",
+      "HDH: Android 5 - CPU: 8 nhân 1.5GHz",
+      "RAM: 2GB - ROM: 32GB",
+      "CAMERA: Trước 5.0MP  Sau 13.0MP",
+      "Kết Nối: Wifi, Đàm thoại, 4G",
+      "Pin: 3500mAh"
+    ],
+    "name": [
+      "Lenovo Phab Plus"
+    ]
+  },
+  {
+    "price": [
+      "2.290.000₫"
+    ],
+    "config": [
+      "Màn Hình: 7.0\", 1024 x 600 pixel",
+      "HDH: Android 4.4 - CPU: 4 nhân 1.2GHz",
+      "RAM: 1GB - ROM: 8GB",
+      "CAMERA: Trước 2MP   Sau 2MP",
+      "Kết Nối: Wifi,3G,Nghe Gọi",
+      "Pin: 4100mAh"
+    ],
+    "name": [
+      "Huawei MediaPad T1-701u"
+    ]
+  },
+  {
+    "price": [
+      "11.690.000₫"
+    ],
+    "config": [
+      "Màn hình: 14”,1920x1080,cảm ứng",
+      "CPU: Intel Core i3, 2.2GHz",
+      "RAM: 4GB/ HDD: 500GB",
+      "VGA: Intel HD Graphic 5500",
+      "HĐH: Windows 10 Home",
+      "Pin: 3 cell/ DVD: Không"
+    ],
+    "name": [
+      "Lenovo Yoga 500 14IBD i3 5020U/4GB/500GB/Touch/Win10"
+    ]
+  }
+]
