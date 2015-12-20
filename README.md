@@ -9,7 +9,7 @@
   * [aircrack-ng](/hack wifi)
   * [sqlmap](/hack sql injection)
 * Tuts
-  * [wifi windows](/windows open wifi)
-  * [scrapy](/crawData)
+  * [wifi windows](/tree/master/windown open wifi)
+  * [scrapy](/tree/master/crawlData)
 
 # Auth: Tuyen-ng
