@@ -9,6 +9,7 @@
   * [aircrack-ng](./hack_wifi)
   * [sqlmap](./hack_sql_injection)
   * [ettercap](./hack_dns)
+  * [metasploit](./hack_metasploit)
 * Tuts
   * [wifi windows](./windown_open_wifi)
   * [scrapy](./crawlData)

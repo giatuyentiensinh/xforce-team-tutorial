@@ -92,3 +92,5 @@ $ sudo ettercap -T -q -i eth0 -M arp:remote -P dns_spoof //192.168.1.1// //192.1
 
 * https://null-byte.wonderhowto.com/how-to/tutorial-dns-spoofing-0167796/
 * https://www.youtube.com/watch?v=Y3j-rlA0CbE
+* https://github.com/Ettercap/ettercap
+* https://quantrimang.com/tim-hieu-ve-tan-cong-man-in-the-middle-gia-mao-dns-66935
