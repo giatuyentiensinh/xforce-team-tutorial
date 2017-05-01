@@ -27,7 +27,7 @@ $pip install Scrapy
 # ten project: crawData
 $ scrapy startproject crawData
 ```
-![Image demo](/images/scrapy struct.png)
+![Image demo](/images/scrapy_struct.png)
 
 ### Code
 

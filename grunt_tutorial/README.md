@@ -110,7 +110,7 @@ module.exports = function (grunt) {
 
 Execute, trước khi chạy hãy tạo các folder và các file theo cấu trúc như sau
 
-![grunt create init](/images/grunt create init.PNG)
+![grunt create init](/images/grunt_create_init.png)
 
 Các file .css và .js chứa một số nội dung
 
