@@ -16,4 +16,5 @@
   * [scrapy](./crawlData)
   * [debian tips](./debian_tips)
   * [git](./git)
+  * [app linux](./app_linux)
 # Auth: Tuyen-ng
