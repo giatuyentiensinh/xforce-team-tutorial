@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=MIB Ubuntu theme
+Description=MIB Ubuntu theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/MIB-Ubuntu
+ScriptFile=/usr/share/plymouth/themes/MIB-Ubuntu/mdv.script

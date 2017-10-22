@@ -14,5 +14,5 @@
 * Tuts
   * [wifi windows](./windown_open_wifi)
   * [scrapy](./crawlData)
-
+  * [debian tips](./debian_tips)
 # Auth: Tuyen-ng
