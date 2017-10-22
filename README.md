@@ -2,6 +2,7 @@
 
 * Server
   * [add template play](./add_template_play)
+  * [nginx](./nginx)
 * Client
   * [bower](./bower_tutorial)
   * [grunt](./grunt_tutorial)
