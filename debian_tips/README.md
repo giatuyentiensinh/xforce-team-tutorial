@@ -58,8 +58,15 @@ alias listnode='npm list -g --depth=0'
 
 alias piqemu='qemu-system-arm -kernel kernel-qemu-3.10.25-wheezy -cpu arm1176 -m 256 -M versatilepb -serial stdio -append "root=/dev/sda2 roofstype=ext4 rw" -hda 2015-02-16-raspbian-wheezy.img -redir tcp:2222::22'
 
+eter() {
+   ettercap -T -i wlp2s0 -M arp:remote -P dns_spoof //$1// //$2/
+}
+
 alias ecgenkey='openssl ecparam -genkey -name secp256r1 -noout -out '
 alias ecshowkey='openssl ec -text -noout -in '
+
+alias ct='chromium --incognito --proxy-server="http://localhost:8118"'
+alias sortname='index=0; for name in *.jpg; do mv ${name} ${index}.jpg; index=$((index+1)); done'
 
 addkeytls() {
     keytool -import -alias $1 -keystore /opt/jdk1.8.0_101/jre/lib/security/cacerts -storepass changeit -file $2
@@ -157,10 +164,6 @@ else:
     import rlcompleter
     readline.parse_and_bind("tab: complete")
 ```
-
-## Các bash_completion 
-
-Copy các file [bash completion](./bash_completion) vào folder `/etc/bash_completion.d`
 
 ## Biến môi trường
 

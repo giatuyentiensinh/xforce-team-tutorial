@@ -33,6 +33,7 @@ My current OS is `debian 9`
 * `droopy` Server file uploading
 * `httpster` Server file downloading (or using command `$ python -m SimpleHTTPServer 8080 .` or `python3 -m http.server 8080`)
 * `nginx`
+* `zsh` Z shell is in order to make awesome terminal
 * `nodejs, npm`
   - bower
   - coap
