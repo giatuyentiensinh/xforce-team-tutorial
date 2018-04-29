@@ -2,7 +2,7 @@
 
 My current OS is `debian 9`
 
-* `aspell` Check chính tả trên Linux (Ctrl + Alt + H to enable)
+* `fcxit aspell` Check chính tả trên Linux thay thế cho ibus (Ctrl + Alt + H to enable)
 * `anki` Học từ vựng, học thuộc ghi nhớ
 * `stardict` Từ điển trên Linux (Shift + Alt + S to open, Ctrl + Q to exit)
 * `bleachbit` Dọn rác trên Linux
@@ -20,7 +20,6 @@ My current OS is `debian 9`
 * `evolution` ứng dụng email, contacts, calendar trên gnome3
 * `virtualbox and docker` máy ảo
 * `libreoffice` bộ ứng dụng cho văn phòng
-* `fcitx` gõ tiếng việt cho debian 9
 
 ## Terminals
 
